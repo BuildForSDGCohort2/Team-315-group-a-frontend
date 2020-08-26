@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/%7Bconverge-frontend%7D/static/css/main.b14a6dc3.chunk.css",
-    "main.js": "/%7Bconverge-frontend%7D/static/js/main.648003d6.chunk.js",
-    "main.js.map": "/%7Bconverge-frontend%7D/static/js/main.648003d6.chunk.js.map",
-    "runtime-main.js": "/%7Bconverge-frontend%7D/static/js/runtime-main.35483bb4.js",
-    "runtime-main.js.map": "/%7Bconverge-frontend%7D/static/js/runtime-main.35483bb4.js.map",
-    "static/js/2.9d6f4ed0.chunk.js": "/%7Bconverge-frontend%7D/static/js/2.9d6f4ed0.chunk.js",
-    "static/js/2.9d6f4ed0.chunk.js.map": "/%7Bconverge-frontend%7D/static/js/2.9d6f4ed0.chunk.js.map",
-    "index.html": "/%7Bconverge-frontend%7D/index.html",
-    "precache-manifest.a5840c7a57fcee441f1c6ecefc293ce0.js": "/%7Bconverge-frontend%7D/precache-manifest.a5840c7a57fcee441f1c6ecefc293ce0.js",
-    "service-worker.js": "/%7Bconverge-frontend%7D/service-worker.js",
-    "static/css/main.b14a6dc3.chunk.css.map": "/%7Bconverge-frontend%7D/static/css/main.b14a6dc3.chunk.css.map",
-    "static/js/2.9d6f4ed0.chunk.js.LICENSE.txt": "/%7Bconverge-frontend%7D/static/js/2.9d6f4ed0.chunk.js.LICENSE.txt"
+    "main.css": "/converge-frontend/static/css/main.b14a6dc3.chunk.css",
+    "main.js": "/converge-frontend/static/js/main.a19e57b4.chunk.js",
+    "main.js.map": "/converge-frontend/static/js/main.a19e57b4.chunk.js.map",
+    "runtime-main.js": "/converge-frontend/static/js/runtime-main.442b1c0c.js",
+    "runtime-main.js.map": "/converge-frontend/static/js/runtime-main.442b1c0c.js.map",
+    "static/js/2.9d6f4ed0.chunk.js": "/converge-frontend/static/js/2.9d6f4ed0.chunk.js",
+    "static/js/2.9d6f4ed0.chunk.js.map": "/converge-frontend/static/js/2.9d6f4ed0.chunk.js.map",
+    "index.html": "/converge-frontend/index.html",
+    "precache-manifest.1a5e8f9378288f0c9d5d9c9fd225fd67.js": "/converge-frontend/precache-manifest.1a5e8f9378288f0c9d5d9c9fd225fd67.js",
+    "service-worker.js": "/converge-frontend/service-worker.js",
+    "static/css/main.b14a6dc3.chunk.css.map": "/converge-frontend/static/css/main.b14a6dc3.chunk.css.map",
+    "static/js/2.9d6f4ed0.chunk.js.LICENSE.txt": "/converge-frontend/static/js/2.9d6f4ed0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.35483bb4.js",
+    "static/js/runtime-main.442b1c0c.js",
     "static/js/2.9d6f4ed0.chunk.js",
     "static/css/main.b14a6dc3.chunk.css",
-    "static/js/main.648003d6.chunk.js"
+    "static/js/main.a19e57b4.chunk.js"
   ]
 }

@@ -1,0 +1,230 @@
+body {
+  width: 100vw;
+}
+/* Style the primary call-to-action buttons */
+.primary-cta-button {
+  width: 150px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 3rem;
+  align-self: center;
+  transition: 0.4s background-color, 0.4s color;
+}
+
+.primary-cta-button:hover {
+  background-color: #3399ff;
+  color: white;
+}
+
+#section-2__cta,
+#section-3__cta {
+  margin-bottom: 3rem;
+}
+
+#section-3__cta:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style sub headings */
+.heading {
+  color: #d6d4d4;
+  margin-left: 4rem;
+}
+
+/* Hero section */
+.hero {
+  min-height: 80vh;
+  background-image: url("https://res.cloudinary.com/theebuka/image/upload/v1599041889/surface-DQfIfnTuT3w-unsplash_flbhyk.jpg");
+  background-size: cover;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__container {
+  color: white;
+
+  padding: 5rem;
+}
+
+.hero__container span {
+  color: #3399ff;
+}
+
+/* Section 2 */
+.section-2 {
+  display: flex;
+  flex-direction: column;
+}
+.section-2__container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  min-height: 30vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2__container .box {
+  width: 20vw;
+  height: 20vh;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-2__container i {
+  color: #3399ff;
+  font-size: 5rem;
+}
+
+.section-2__container h3 {
+  color: #3399ff;
+}
+
+/* Section 3 */
+.section-3 {
+  min-height: 75vh;
+  background-color: #3399ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-3__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-3__container .box {
+  background-color: #ffffff;
+  width: 15rem;
+  height: 17rem;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section-3__container button {
+  width: 120px;
+  padding: 10px;
+  background-color: #3399ff;
+  color: white;
+  align-self: center;
+  margin-bottom: 3rem;
+  border: none;
+  transition: 0.4s background-color, 0.4s color;
+}
+
+.section-3__container button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Section */
+.section-4 {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-4 .box-1 img {
+  height: 61vh;
+  width: 45vw;
+}
+
+.section-4 .box-2 {
+  width: 55vw;
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-4 .paragraph {
+  text-align: justify;
+}
+
+/* Portrait for mobile phones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    font-size: 1.2rem;
+  }
+  /* Hero section */
+  .hero {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  /* Style sub headings */
+  .heading {
+    color: #d6d4d4;
+    text-align: center;
+  }
+
+  /* Section 2 */
+  .section-2__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-2__container .box {
+    width: 80vw;
+    height: 40vh;
+    -webkit-box-shadow: 0px 0px 11px 6px rgba(219, 219, 219, 1);
+    -moz-box-shadow: 0px 0px 11px 6px rgba(219, 219, 219, 1);
+    box-shadow: 0px 0px 11px 6px rgba(219, 219, 219, 1);
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  /* Section 3 */
+  .section-3__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-3__container .box {
+    width: 70vw;
+    height: 45vh;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  /* Section 4 */
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-4 .box-1 img {
+    display: none;
+  }
+  .section-4 .box-2 {
+    width: 80vw;
+  }
+
+  .section-4 .paragraph {
+    text-align: left;
+    line-height: 1.5rem;
+  }
+}

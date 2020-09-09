@@ -1,24 +1,22 @@
 import React from "react";
-<<<<<<< HEAD
 import Header from "./components/Header/header.component";
 import Landing from "./components/LandingPage/Landing";
-function App() {
-  return (
-    <React.Fragment>
-      <Header />
-      <Landing />
-    </React.Fragment>
-=======
-// import Header from "./components/Header/header.component";
-import Login from "./components/Login/login";
+import { Switch, Route } from "react-router-dom";
+import Login from "./components/Login/Login";
+import SignUp from "./components/SignUp/SignUp";
 
 function App() {
   return (
-    <>
-      {/* <Header /> */}
-      <Login />
-    </>
->>>>>>> track untracked files
+    <React.Fragment>
+      <Switch>
+        <Route exact path="/">
+          <Header />
+          <Landing />
+        </Route>
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/signup" component={SignUp} />
+      </Switch>
+    </React.Fragment>
   );
 }
 

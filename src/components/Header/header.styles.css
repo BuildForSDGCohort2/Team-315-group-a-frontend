@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.headerNav {
+	background: #000000;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	line-height: 70px;
+	padding: 0 30px;
+}
+
+.headerNav h1 {
+	letter-spacing: 1px;
+}
+
+.headerNav #navLink {
+    color: #ffffff;
+	text-decoration: none;
+}
+
+.headerList {
+	display: flex;
+}
+
+.headerList ul {
+	display: flex;
+}
+
+.headerList ul li {
+	list-style: none;
+	padding: 0 20px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	cursor: pointer;
+}
+
+.headerList #navLink {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.headerList ul li:hover,
+.headerList #navLink:hover {
+	color: #3399ff;
+}
+
+.headerSearch {
+	background: #ffffff;
+	color: #000000;
+	height: 35px;
+	width: 250px;
+	margin: auto 20px;
+	padding: 0 10px;
+	border-radius: 12px;
+	display: flex;
+}
+
+.headerSearch #headerFont {
+	font-size: 24px;
+	margin: auto 5px auto 0px;
+}
+
+.headerSearch input {
+	border: none;
+}
+
+.headerSearch input:focus,
+.headerSearch input:active {
+	outline: #ffffff;
+}
+
+.headerSearch input::placeholder {
+	letter-spacing: 1px;
+	padding-left: 10px;
+}
+
+.headerNav #mbBar {
+	display: none;
+}
+
+/* -----------mobile responsiveness starts here----------------- */
+
+@media screen and (max-width: 720px)  {
+    .headerNav {
+	line-height: 40px;
+	padding: 0 10px;
+}
+
+.headerNav h1 {
+	letter-spacing: 0px;
+	font-size: 18px;
+}
+
+.headerNav #mbBar {
+	display: block;
+	margin: auto 0;
+}
+
+.headerList {
+	display: none;
+}
+
+.headerSearch {
+	display: none;
+}
+
+}

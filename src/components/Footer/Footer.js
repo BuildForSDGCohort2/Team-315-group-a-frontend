@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -55,9 +56,12 @@ export default function Footer() {
         <h4>GENERAL</h4>
         <div className="links">
           <ul>
+            <NavLink to="/about">
+
             <li>
               <a href="#">About</a>
             </li>
+            </NavLink>
             <li>
               <a href="#">Partnerships</a>
             </li>

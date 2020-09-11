@@ -1,13 +1,14 @@
-import React from "react";
-import Header from "./components/Header/header.component";
-import Landing from "./components/LandingPage/Landing";
+import React from 'react';
+import Header from './components/Header/header.component';
+import Landing from './components/LandingPage/Landing';
+
 function App() {
-  return (
-    <React.Fragment>
-      <Header />
-      <Landing />
-    </React.Fragment>
-  );
+	return (
+		<main>
+			<Header />
+			<Landing />
+		</main>
+	);
 }
 
 export default App;

@@ -17,8 +17,12 @@ const Header = () => {
 
 			<div className="headerList">
 				<ul>
-					<li>login</li>
-					<li>sign up</li>
+					<NavLink to="/login" id="navLink">
+						<li>login</li>
+					</NavLink>
+					<NavLink to="/signup" id="navLink">
+						<li>sign up</li>
+					</NavLink>
 					<li>
 						<NavLink to="/explore" id="navLink">
 							explore

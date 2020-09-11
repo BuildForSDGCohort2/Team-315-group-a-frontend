@@ -1,0 +1,166 @@
+@media only screen and (max-width: 768px) {
+  .login {
+    display: flex;
+    max-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: space-around;
+  }
+
+  .login__left {
+    flex: 0;
+    background-image: url("https://res.cloudinary.com/theebuka/image/upload/v1599041920/surface-jHXLV4_3uy4-unsplash_v8fcqk.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: none;
+  }
+  .login__right {
+    /* background-color: red; */
+    flex: 1;
+  }
+}
+
+@font-face {
+  src: url(%PUBLIC_URL%/public/HomepagebaukastenBook-3nYL.ttf);
+  font-family: "homepage";
+}
+
+.login {
+  display: flex;
+  max-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login__left {
+  flex: 0.3;
+  background-image: url("https://res.cloudinary.com/theebuka/image/upload/v1599041920/surface-jHXLV4_3uy4-unsplash_v8fcqk.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.login__image {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.login__right {
+  flex: 0.7;
+  height: 100vh;
+  margin: 20px;
+}
+
+.login__navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.login__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  color: #3399ff;
+  font-size: 24px;
+  font-family: "homepage", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.login_logo {
+  font-weight: 600;
+}
+
+.welcome {
+  margin-bottom: 1px;
+}
+
+.start {
+  margin-top: 1px;
+}
+
+.login__email {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.login__email > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
+
+.login__email > input {
+  padding: 15px;
+  background-color: #cccccc;
+  border: 0px;
+}
+
+.login__password > label {
+  margin-bottom: 5px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.login__password > input {
+  padding: 15px;
+  background-color: #cccccc;
+  border: 0px;
+}
+
+.login__password {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  justify-content: flex-start;
+}
+
+.login__forgot {
+  color: #3399ff;
+  text-decoration: none;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.login__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.login__button {
+  padding: 10px;
+  width: 125px;
+  color: white;
+  background-color: rgb(17, 17, 17);
+  border: 0px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.login__footer > p {
+  color: #4f4f4f;
+  font-size: 14px;
+}
+.login__textLink {
+  color: #3399ff;
+  text-decoration: none;
+  margin-left: 5px;
+}

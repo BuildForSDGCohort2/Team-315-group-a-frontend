@@ -4,10 +4,11 @@ import Landing from "./components/LandingPage/Landing";
 import { Switch, Route } from "react-router-dom";
 import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
+import "../src/App.css";
 
 function App() {
   return (
-    <React.Fragment>
+    <div className="main-app">
       <Switch>
         <Route exact path="/">
           <Header />
@@ -16,7 +17,7 @@ function App() {
         <Route exact path="/login" component={Login} />
         <Route exact path="/signup" component={SignUp} />
       </Switch>
-    </React.Fragment>
+    </div>
   );
 }
 

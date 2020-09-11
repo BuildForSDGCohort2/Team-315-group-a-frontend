@@ -39,6 +39,7 @@ body {
   min-height: 80vh;
   background-image: url("https://res.cloudinary.com/theebuka/image/upload/v1599041889/surface-DQfIfnTuT3w-unsplash_flbhyk.jpg");
   background-size: cover;
+  filter: brightness(80%);
   font-size: 1rem;
   display: flex;
   flex-direction: column;
@@ -122,6 +123,15 @@ body {
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+.section-3 a {
+  text-decoration: none;
+  color: rgb(6, 6, 177);
+}
+
+.section-3 h5 {
+  color: grey;
+}
+
 .section-3__container button {
   width: 120px;
   padding: 10px;
@@ -159,8 +169,13 @@ body {
   text-align: center;
 }
 
+.section-4 h5 {
+  color: grey;
+}
+
 .section-4 .paragraph {
   text-align: justify;
+  color: grey;
 }
 
 /* Portrait for mobile phones */

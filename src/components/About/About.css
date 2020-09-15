@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.ABT {
+	padding-bottom: 40px;
+}
+
+.aboutContainer h2 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.aboutContainer header {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1fr;
+	padding: 20px 50px;
+}
+
+.aboutContainer header h1 {
+	text-transform: uppercase;
+	color: #3399ff;
+	font-size: 28px;
+	text-align: center;
+	margin: 60px auto;
+}
+
+.aboutContainer header div h3 {
+	color: #c8c8c8;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+.aboutContainer header div p {
+	font-size: 16px;
+	word-spacing: 1px;
+	line-height: 20px;
+	color: #666666;
+}
+
+.aboutContainer .font {
+	display: flex;
+	justify-content: center;
+}
+
+.aboutContainer #aboutFont {
+	text-align: center;
+	color: #666666;
+	font-size: 24px;
+	margin: 0 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.aboutContainer #aboutFont:hover {
+	color: #3399ff;
+}
+
+.teamContainer h3 {
+	font-size: 14px;
+	margin-left: 120px;
+	margin-bottom: 40px;
+	color: #c8c8c8;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.teamContainer .team {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 0 200px;
+}
+
+.teamContainer .team div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 50px 50px 50px;
+}
+
+.teamContainer .team div img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.teamContainer .team div h3 {
+	font-size: 14px;
+	color: #c8c8c8;
+	text-transform: uppercase;
+	margin: 10px auto 5px;
+}
+
+.teamContainer .team div h2 {
+font: bold 20px sans-serif;
+letter-spacing: 1px;
+margin-bottom: 5px;
+}
+
+.teamContainer .team div h4 {
+	font-size: 14px;
+	width: 100px;
+	text-align: center;
+	background: #3399ff;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding:8px 0px;	
+}
+
+.teamContainer .team div h4:hover {
+	cursor: pointer;
+	background: #1265b9;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding:8px 0px;	
+}
